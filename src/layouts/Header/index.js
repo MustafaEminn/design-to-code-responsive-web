@@ -6,7 +6,7 @@ import {
 } from "@material-ui/core";
 import React, { useState } from "react";
 import styles from "./Header.module.css";
-import logo from "../../assets/images/icon.webp";
+import logo from "../../assets/images/Layout/Header/icon.webp";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
 
@@ -69,7 +69,6 @@ const Header = () => {
           </Grid>
         </Grid>
       </MuiThemeProvider>
-
       <div id={isOpen ? "active" : ""} className={styles.sidebar}>
         <ul className={styles.sideUL}>
           <li
