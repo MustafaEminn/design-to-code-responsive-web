@@ -2,8 +2,7 @@
   display: flex;
   align-items: center;
   height: 4.8rem;
-  margin: 0 6.75rem;
-  border: 1px solid black;
+  padding: 0 6.75rem;
   box-shadow: 0px 6px 5px 0px rgba(214, 214, 214, 1);
 }
 
@@ -100,15 +99,17 @@
 /* SIDEBAR */
 
 .sidebar {
+  z-index: 9999;
   position: absolute;
   transform: translateY(-200vh);
   width: 99.5vw;
   min-height: 40vh;
   background-color: var(--white);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s;
 }
 
 .sidebar[id="active"] {
+  z-index: 9999;
   transform: translateY(0);
   position: absolute;
   left: 0;
@@ -117,7 +118,7 @@
   width: 99.5vw;
   background-color: var(--white);
   border-bottom: 1px solid gray;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s;
 }
 
 .sideUL {
@@ -141,7 +142,7 @@
 
 @media only screen and (max-width: 1005px) {
   .container {
-    margin: 0;
+    padding: 0;
   }
 }
 
