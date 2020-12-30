@@ -1,10 +1,11 @@
 .container {
-  height: 31em;
+  height: 51em;
   background-image: url("../../assets/images/Home/rectangle-main1.webp");
   background-position: top;
   background-size: 100%;
   background-repeat: no-repeat;
   font-size: 20px;
+  margin: 0 0 4rem 0;
 }
 
 .txtLine {
@@ -148,13 +149,12 @@
   width: 95%;
   height: 50%;
   margin-left: 1.5em;
-  overflow: hidden;
 }
 
 .rightImgContainer1 {
   position: relative;
-  width: 23.5em;
-  height: 17em;
+  max-width: 23.5em;
+  height: 16em;
 }
 
 .rightImg1 {
@@ -294,5 +294,11 @@
   .redText > span {
     height: 16px;
     left: -2px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .cartsLeft {
+    margin: 3.2em 0 0 4% !important;
   }
 }

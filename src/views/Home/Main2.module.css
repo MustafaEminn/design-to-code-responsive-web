@@ -1,0 +1,123 @@
+.containerForEm {
+  font-size: 20px;
+}
+
+.container {
+  margin: 4em 6.75em 4em 6.75em;
+}
+
+.head1 {
+  font-family: var(--inter);
+  color: var(--black);
+  font-weight: bold;
+  font-size: 1.6em;
+  line-height: 2.4em;
+  letter-spacing: -0.025em;
+  text-align: left;
+}
+
+.headP {
+  font-family: var(--inter);
+  color: var(--black);
+  font-size: 1.2em;
+  line-height: 1.8em;
+  letter-spacing: -0.025em;
+  text-align: left;
+  max-width: 46.6em;
+}
+
+/* CARTS */
+
+.cartContainer {
+  margin-top: 2em !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.iconBGDefault {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 3.5em;
+  width: 100%;
+  height: 3.5em;
+  border-radius: 999px;
+}
+
+.iconBG1 {
+  composes: iconBGDefault;
+  background-color: var(--pink-dark);
+}
+
+.iconBG2 {
+  composes: iconBGDefault;
+  background-color: var(--blue-dark);
+}
+
+.iconBG3 {
+  composes: iconBGDefault;
+  background-color: var(--purple-dark);
+}
+
+.iconBG4 {
+  composes: iconBGDefault;
+  background-color: var(--green-dark);
+}
+
+.iconBG1 > img,
+.iconBG2 > img,
+.iconBG3 > img,
+.iconBG4 > img {
+  margin: 0.4em 0 0 0.1em;
+}
+
+.cartH1 {
+  font-family: var(--inter);
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 1.4em;
+}
+
+.cartP {
+  text-align: left;
+  font-family: var(--inter);
+  font-size: 0.9em;
+  line-height: 1.6em;
+  margin-top: 0.8em;
+}
+
+.cartButton {
+  text-decoration: none;
+  font-family: var(--inter);
+  font-weight: bold;
+  font-size: 0.9em;
+  color: var(--purple-dark);
+  padding: 0.7em 1.05em;
+  border: 1px solid var(--gray);
+  border-radius: 0.8em;
+  margin: 0.8em 0 0 0;
+  max-width: 5.6em;
+}
+
+@media only screen and (max-width: 1280px) {
+  .containerForEm {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .containerForEm {
+    font-size: 14px;
+  }
+
+  .container {
+    margin: 4em 0.75em 0 0.75em;
+  }
+}

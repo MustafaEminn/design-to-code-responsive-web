@@ -1,0 +1,83 @@
+.containerForEm {
+  font-size: 20px;
+}
+
+.container {
+  margin: 4em 6.75em 4em 6.75em;
+}
+
+.head1 {
+  font-family: var(--inter);
+  font-weight: 900;
+  font-size: 3.2em;
+  color: var(--black);
+}
+
+.head2 {
+  font-family: var(--inter);
+  font-weight: bold;
+  font-size: 1.6em;
+  line-height: 2.4em;
+  color: var(--gray);
+  margin: 0.8em 0 0 0;
+}
+
+.head2Span {
+  position: relative;
+  color: var(--purple-dark);
+}
+
+.head2Span::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0.4em;
+  width: 100%;
+  background-color: var(--yellow);
+  z-index: -1;
+  border-radius: 999px;
+}
+
+/* CARTS */
+
+.cartContainer {
+  width: 100%;
+  border-radius: 0.8em;
+  border: 1px solid var(--purple-dark);
+  padding: 1.8em 0;
+  filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12)),
+    drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1.8em;
+}
+
+.packageModal > p {
+  font-family: var(--inter);
+  font-weight: bold;
+  font-size: 0.8em;
+  letter-spacing: 0.01em;
+  color: var(--purple-dark);
+}
+
+.tag {
+  font-family: var(--inter);
+  font-weight: 800;
+  font-size: 0.6em;
+  text-align: center;
+  letter-spacing: 0.125em;
+  padding: 0.5em 1.04em;
+  border: 1px solid var(--purple-dark);
+  border-radius: 999px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .containerForEm {
+    font-size: 16px;
+  }
+}
