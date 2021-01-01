@@ -31,7 +31,7 @@ const Header = () => {
       <MuiThemeProvider theme={theme}>
         <Grid container>
           {/* LOGO */}
-          <Grid item xs={3} sm={3} className={styles.logoContainer}>
+          <Grid item xs={2} sm={2} className={styles.logoContainer}>
             <div
               className={styles.bar}
               onClick={() => {
@@ -50,7 +50,13 @@ const Header = () => {
             <h3 className={styles.logoText}>Grid</h3>
           </Grid>
           {/* NAVBAR */}
-          <Grid item xs={5} sm={7} className={styles.navbarContainer}>
+          <Grid
+            justify="center"
+            item
+            xs={6}
+            sm={8}
+            className={styles.navbarContainer}
+          >
             <ul className={styles.ul}>
               <li className={styles.li}>How it works</li>
               <span className={styles.yellowdot}>.</span>
