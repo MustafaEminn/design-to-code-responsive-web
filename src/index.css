@@ -124,9 +124,11 @@ table {
 }
 html {
   font-size: 20px;
+  scroll-behavior: smooth !important;
 }
 body {
   max-width: 1440px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 @import "./utils/css/variables.css";

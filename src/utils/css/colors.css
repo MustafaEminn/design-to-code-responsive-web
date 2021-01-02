@@ -1,5 +1,6 @@
 :root {
   --yellow: #fdcb6e;
+  --yellow-light: #ffeaa7;
   --white: #ffffff;
   --purple-dark: #6c5ce7;
   --black: #2d3436;
@@ -9,5 +10,6 @@
   --pink-dark: #e84393;
   --gray: #adadad;
   --gray-c2: #c2c2c2;
+  --gray-f0: #f0f0f0;
   --blue-dark: #0984e3;
 }

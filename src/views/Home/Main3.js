@@ -10,8 +10,8 @@ const Main3 = () => {
       keys: ["xs", "sm", "md", "lg", "xl"],
       values: {
         xs: 0,
-        sm: 0,
-        md: 1155,
+        sm: 400,
+        md: 1130,
         lg: 1280,
         xl: 1440,
       },
@@ -20,7 +20,7 @@ const Main3 = () => {
 
   return (
     <MuiThemeProvider theme={theme}>
-      <div className={styles.containerForEm}>
+      <div id="whatwedo" className={styles.containerForEm}>
         <div className={styles.container}>
           <Grid container>
             <Grid item xs={12}>
@@ -73,6 +73,7 @@ const Main3 = () => {
                 </a>
               </div>
             </Grid>
+
             <Grid item align="center" md={4}>
               <div id={styles.cartShadow} className={styles.cartContainer}>
                 <div>

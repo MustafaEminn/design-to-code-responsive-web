@@ -22,7 +22,7 @@ const Main2 = () => {
 
   return (
     <MuiThemeProvider theme={theme}>
-      <div className={styles.containerForEm}>
+      <div id="whoweare" className={styles.containerForEm}>
         <div className={styles.container}>
           <Grid container>
             <Grid item xs={12}>

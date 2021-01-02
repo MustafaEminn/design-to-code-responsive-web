@@ -1,0 +1,260 @@
+.containerForEm {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  background-image: url("../../assets/images/Layout/Contact/Wave.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding-bottom: 6.5em;
+}
+
+.container {
+  margin: 1.4em 6.75em 1.4em 6.75em;
+}
+
+.h4 {
+  font-family: var(--inter);
+  font-weight: 800;
+  font-size: 0.6em;
+  letter-spacing: 0.125em;
+  color: var(--gray);
+}
+
+.socialUl {
+  display: flex;
+  margin: 0.4em 0 0 0;
+}
+
+.socialLi {
+  margin: 0 1.85em 0 0;
+  border-radius: 99px;
+  transition: all 0.2s;
+}
+
+.socialLi a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialLi:hover {
+  background-color: var(--yellow-light);
+}
+
+.companyMail {
+  font-family: var(--inter);
+  font-weight: bold;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+  color: var(--purple-dark);
+}
+
+/* BOTTOM */
+
+.containerBottom {
+  margin: 1.8em 0 0 0;
+}
+
+.linksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 0.8em;
+}
+
+.linksUl {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.linksLi {
+  margin-bottom: 0.8em;
+}
+
+.linksLi > a {
+  font-family: var(--inter);
+  color: var(--black);
+  font-size: 0.7em;
+  line-height: 1.2em;
+  text-decoration: none;
+  letter-spacing: 0.0125em;
+  margin-right: 2.5em;
+}
+
+.linksLi > a:hover,
+.linksLi > a:focus {
+  text-decoration: underline;
+}
+
+/* FORM */
+.formContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0.8em 0 0 0;
+  max-width: 29.3em;
+}
+
+.formTop {
+  display: flex;
+}
+
+.formBottom {
+  margin-top: 1.5em;
+  display: flex;
+}
+
+.inputContainer1 {
+  position: relative;
+  max-width: 13.6em;
+  margin-right: 1.5em;
+}
+
+.inputContainer1 > img {
+  position: absolute;
+  height: 2.8em;
+  width: 2.5em;
+  right: 0em;
+}
+
+.inputContainer2 {
+  position: relative;
+  max-width: 18.5em;
+  margin-right: 1.5em;
+}
+
+.inputContainer2 > img {
+  position: absolute;
+  height: 2.8em;
+  width: 2.5em;
+  right: 0em;
+}
+
+#smallInput {
+  width: 11.8em;
+  padding: 0.7em 2.6em 0.7em 0.8em;
+  background: var(--gray-f0);
+  border-radius: 0.8em;
+  font-family: var(--inter);
+  font-size: 0.9em;
+  line-height: 1.6em;
+  color: var(--black);
+  border: none;
+  outline: none;
+  border: 2px solid transparent;
+}
+
+#smallInput:focus {
+  border: 2px solid var(--purple-dark);
+  caret-color: var(--purple-dark);
+  color: var(--purple-dark);
+}
+
+#smallInput::placeholder {
+  color: var(--black);
+}
+
+#largeInput {
+  width: 17.1em;
+  height: 3.3em;
+  padding: 0.7em 2.6em 0.7em 1.2em;
+  white-space: pre-line;
+  background: var(--gray-f0);
+  border-radius: 0.8em;
+  font-family: var(--inter);
+  font-size: 0.9em;
+  color: var(--black);
+  border: none;
+  outline: none;
+  border: 2px solid var(--gray);
+  resize: none;
+  overflow: -moz-hidden-unscrollable;
+  -ms-overflow-style: none;
+}
+
+#largeInput:focus {
+  border: 2px solid var(--purple-dark);
+  caret-color: var(--purple-dark);
+  color: var(--purple-dark);
+}
+
+#largeInput::-webkit-scrollbar {
+  display: none;
+}
+
+#largeInput::placeholder {
+  color: var(--black);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7.6em;
+  background: var(--purple-dark);
+  box-shadow: 0px 8px 24px rgba(38, 50, 56, 0.1),
+    0px 16px 32px rgba(38, 50, 56, 0.08);
+  border-radius: 0.8em;
+  font-family: var(--inter);
+  font-weight: bold;
+  font-size: 1.2em;
+  text-decoration: none;
+  letter-spacing: 0.025em;
+  color: var(--white);
+  text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16),
+    0px 4px 8px rgba(38, 50, 56, 0.08);
+}
+
+@media only screen and (max-width: 1280px) {
+  .containerForEm {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .containerForEm {
+    font-size: 14px;
+  }
+  .container {
+    margin: 1.4em 0.75em;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .containerForEm {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .socialUl,
+  .linksContainer,
+  .form {
+    justify-content: center;
+  }
+
+  .formContainer {
+    align-items: center;
+  }
+
+  .formContainer h4 {
+    margin-top: 1.8em;
+  }
+
+  #emailMargin {
+    margin-top: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .containerForEm {
+    font-size: 10px;
+  }
+}

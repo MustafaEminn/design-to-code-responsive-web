@@ -131,6 +131,9 @@
 }
 
 .iconBG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 1.6em;
   width: 1.6em;
   border-radius: 999px;
@@ -179,9 +182,23 @@
   }
 }
 
-@media only screen and (max-width: 960px) {
-  .cartContainer {
-    box-shadow: 0px 0px 7px 1px rgba(120, 120, 120, 1);
+@media only screen and (max-width: 1130px) {
+  .containerForEm {
+    font-size: 15px;
+  }
+
+  .container {
+    margin: 4em 3.75em 4em 3.75em;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .containerForEm {
+    font-size: 15px;
+  }
+
+  .container {
+    margin: 4em 0.75em 4em 0.75em;
   }
 
   .wiggle {
@@ -189,12 +206,12 @@
   }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 902px) {
   .containerForEm {
     font-size: 14px;
   }
 
-  .container {
-    margin: 4em 0.75em 0 0.75em;
+  .cartContainer {
+    box-shadow: 0px 0px 7px 1px rgba(120, 120, 120, 1);
   }
 }

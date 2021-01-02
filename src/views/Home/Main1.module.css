@@ -55,6 +55,7 @@
   flex: 1;
   height: 38.3em;
   overflow: hidden;
+  padding-bottom: 5em;
 }
 
 .cartsLeft {
@@ -154,7 +155,7 @@
 .rightImgContainer1 {
   position: relative;
   max-width: 23.5em;
-  height: 16em;
+  max-height: 20em;
 }
 
 .rightImg1 {

@@ -9,6 +9,7 @@
 .bar {
   display: none;
   margin: 0 0.6rem;
+  cursor: pointer;
 }
 
 .logoContainer {
@@ -53,13 +54,9 @@
   color: var(--purple-dark);
 }
 
-.li-active {
-  font-family: var(--inter);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 0.9rem;
-  line-height: 1.6rem;
-  margin-left: 1rem;
+.li > a {
+  text-decoration: none;
+  color: var(--purple-dark);
 }
 
 .yellowdot {
@@ -81,6 +78,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  white-space: nowrap;
   font-family: var(--inter);
   color: var(--white);
   font-style: normal;
@@ -132,6 +130,7 @@
 
 .sideClose {
   position: absolute;
+  cursor: pointer;
   left: 1rem;
   top: 1rem;
 }

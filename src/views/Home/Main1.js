@@ -11,7 +11,7 @@ import RightImage6 from "../../assets/images/Home/RightImage6.webp";
 
 const Main1 = () => {
   return (
-    <div className={styles.container}>
+    <div id="howitworks" className={styles.container}>
       <Grid container>
         <Grid item xs={12} className={styles.txtLine}>
           <h1 className={styles.h1_1}>
