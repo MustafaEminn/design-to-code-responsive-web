@@ -1,4 +1,9 @@
 # Design To Code Web
+
+[![license MIT](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/MustafaEminn/design-to-code-responsive-web/blob/master/LICENSE)
+
+- [x] React.js
+- [x] UI Framework (Material UI)
 - [x] Fully Responsive
 - [x] Cross-Browser Support
 
